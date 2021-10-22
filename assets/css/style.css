@@ -1,0 +1,1540 @@
+/* Global */
+
+@font-face {
+  font-family: tofino-personal;
+  src: url(../fonts/Tofino/TofinoProPersonal-Medium.otf);
+}
+
+@font-face {
+  font-family: tofino-personal-regular;
+  src: url(../fonts/Tofino/TofinoProPersonal-Regular.otf);
+}
+
+@font-face {
+  font-family: tofino-personal-light;
+  src: url(../fonts/Tofino/TofinoProPersonal-Light.otf);
+}
+
+@font-face {
+  font-family: tofino-personal-semi-bold;
+  src: url(../fonts/Tofino/TofinoProPersonal-Semibold.otf);
+}
+
+@font-face {
+  font-family: tofino-book-personal;
+  src: url(../fonts/Tofino/TofinoProPersonal-Book.otf);
+}
+
+/* Font Family  */
+
+.cm_font_tofino_personal {
+  font-family: tofino-personal;
+}
+
+.cm_font_tofino_personal_regular {
+  font-family: tofino-personal-regular;
+  /* margin-left: 30px; */
+}
+
+.cm_font_tofino_light {
+  font-family: tofino-personal-light;
+}
+
+.cm_font_tofino_semi_bold {
+  font-family: tofino-personal-semi-bold;
+}
+
+.cm_font_book_personal {
+  font-family: tofino-book-personal;
+}
+
+/* Backgorund Colour */
+
+.cm_blue {
+  background-color: #213951;
+}
+
+.cm_light_blue {
+  background-color: #2f475e;
+}
+
+.cm_bg_orange {
+  background-color: #fdc989;
+}
+
+.cm_light_orange {
+  background-color: #fedbb1;
+}
+
+.cm_grey {
+  background-color: #d3d8dc;
+}
+
+.cm_yellow {
+  margin: 0px;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  background-image: url(../images/banner_img.png);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.cm_bg_white {
+  background-color: #ffffff;
+}
+
+.cm_darkblack {
+  background-color: #4d6073;
+}
+
+/* Font Colours */
+
+.cm_font_white {
+  color: #fff;
+}
+
+.cm_font_black {
+  color: #202020;
+}
+
+.cm_font_yellow,
+.cm_icon_color {
+  color: #fea63b;
+}
+
+.cm_font_yellow1 {
+  color: #f18b0e;
+}
+
+.cm_font_blue {
+  color: #213951;
+  /* margin-left: 30px; */
+  font-size: 14px;
+}
+
+/* Font Size */
+
+.cm_font_10 {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.cm_font_12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cm_font_14 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.cm_font_16 {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.cm_font_18 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cm_font_20 {
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 1.5;
+  font-weight: 400 !important;
+}
+
+.cm_font_22 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.cm_font_24 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 30px;
+}
+p.cm_font_tofino_personal_regular.english {
+  margin-left: 38px;
+}
+.cm_font_26 {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.cm_font_28 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.cm_font_30 {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Tofino-Personal;
+}
+.row.pt-4.pb-5.mainBannerSec3 {
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+.button_99 {
+  justify-content: center;
+  padding-left: 68px;
+}
+.cm_font_36 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.cm_font_48 {
+  font-size: 48px;
+}
+
+.letter-spacing {
+  letter-spacing: 2.5px;
+}
+
+/* Font weight */
+
+.cm_font_bold {
+  font-weight: bold;
+}
+
+.cm_font_100 {
+  font-weight: 100;
+}
+
+.cm_font_200 {
+  font-weight: 200;
+}
+
+.cm_font_300 {
+  font-weight: 300;
+}
+
+.cm_font_400 {
+  font-weight: 400;
+}
+
+.cm_font_500 {
+  font-weight: 500;
+}
+
+.cm_font_600 {
+  font-weight: 600;
+}
+
+.cm_font_700 {
+  font-weight: 700;
+}
+
+.cm_font_800 {
+  font-weight: 800;
+}
+
+#dropdownMenuLink:hover {
+  color: #fea63b;
+}
+
+.footerSection a {
+  color: #fea63b;
+}
+
+/* Header */
+
+.menuHeader {
+  margin: 0;
+  padding: 8px 0 16px 0;
+  z-index: 4;
+}
+
+input#register {
+  padding: 17px 19px 15px 28px;
+  height: 50px;
+  border-radius: 0 !important;
+  display: none;
+}
+.menuHeader form {
+  justify-content: flex-end;
+}
+::placeholder {
+  color: #202020;
+  opacity: 0.4 !important;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: tofino-personal;
+  color: black !important;
+}
+
+button#registerBtn {
+  height: 50px;
+  width: 222px;
+  padding: 14px 9px 15px 9px;
+  font-size: 18px;
+  /* font-weight: bold; */
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 1.4px;
+  color: #fff;
+  border-radius: 0 !important;
+  /* box-shadow: inset 0 1px 3px 0 rgba(255, 255, 255, 0.5); */
+  background-image: linear-gradient(to bottom, #fea63b, #f08708 100%);
+}
+
+/* Banner Section */
+
+.mainBanner {
+  margin: 0px;
+  padding-bottom: 100px;
+  padding-top: 40px;
+  background-image: url(../images/banner_img.png);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.cm_main_heading {
+  font-size: 36px;
+  line-height: 70px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+.mainBanner h2 {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+/* glimpsesSection */
+
+.glimpsesSection {
+  background-image: linear-gradient(to bottom, #fff 40%, #e1dcdc);
+}
+h1.cm_font_tofino_personal.cm_font_bold.cm_font_black.cm_font_36.cm_font_800.letter-spacing {
+  margin: 98px 63.5px 85px 19.5px;
+  font-family: Tofino-Personal;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202020;
+}
+
+/* icon */
+
+i.cm_icon_color {
+  padding-right: 10px;
+}
+
+.registrationOpen {
+  letter-spacing: 2.5px;
+}
+
+/* Count down */
+
+ul#countDown {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 60px;
+}
+
+li#countDownDays,
+li#countDownHours,
+li#countDownMinutes,
+li#countDownSeconds,
+li#countDownDays1,
+li#countDownHours1,
+li#countDownMinutes1,
+li#countDownSeconds1 {
+  margin: 0 27px 0 0px;
+  padding: 15px;
+  width: 98px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to bottom, #274e6e, #213951);
+}
+
+#countDown li span {
+  letter-spacing: 2.7px;
+}
+
+/* About */
+
+#cm_about_section {
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  text-align: left;
+  padding: 50px 0 0 50px;
+}
+.cm_testimonial_before {
+  position: relative;
+}
+.cm_testimonial_before:before {
+  content: "";
+  left: -20px;
+  top: -30px;
+  background-image: url(../images/commas.png);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.sponsersSection {
+  padding-top: 130px;
+  padding-bottom: 110px;
+}
+.sponsersSection h1 {
+  /* font-family: Formula; */
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.86px;
+  color: #202020;
+}
+#myTab {
+  padding-right: 0px;
+}
+
+.nav-item {
+  padding: 0px 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 3px solid #f18b0e;
+}
+
+.nav-tabs .nav-link {
+  border: 0px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #f18b0e;
+  /* font-family: Tofino-Personal; */
+}
+
+/* benefitSection */
+
+.benefitSection,
+.inPersonSection,
+.registrationSection,
+.scheduleSection {
+  /*padding: 80px 0;*/
+  /* border-radius: 0 !important; */
+}
+
+a.cm_preRegister {
+  box-shadow: inset 0 1px 3px 0 rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to bottom, #fea63b, #fea63b 100%);
+  width: 164px;
+  height: 50px;
+  line-height: 50px;
+  /* padding: 0 30px 0; */
+  box-shadow: inset 0 1px 3px 0 rgb(255 255 255 / 50%);
+  background-color: #fea63c;
+  font-size: 18px;
+  font-family: "Tofino Medium Personal";
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+}
+
+/* a.cm_preRegister {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Tofino Medium Personal";
+} */
+
+a.cm_preRegister:hover {
+  background-image: linear-gradient(to bottom, #ffc988, #ffc988 50%);
+  /* color: black; */
+}
+
+/* Style the tab */
+
+#v-pills-tab-faq button {
+  padding: 20px 0px;
+}
+
+#v-pills-tab-faq .nav-link {
+  padding: 10px 21px 12px 21px;
+  font-size: 21px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+/* tr.head_tr th.tue_67 {
+  border-top: 1px solid #202020;
+}
+tr.head_tr th.tue_67.first {
+  position: relative;
+  right: -2px;
+} */
+th.cm_darknewgray.text-center.cm_font_white.cm_font_18.cm_font_tofino.tue_67 {
+  border: none;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  box-shadow: inset 0 1px 3px 0 rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to bottom, #fea63b, #fea63b 100%);
+  background-color: transparent;
+  border-radius: 0 !important;
+}
+
+.accordion-item {
+  border: 0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #213951 !important;
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: #213951 !important;
+  color: #fff;
+}
+
+.accordion-header {
+  font-family: tofino-personal-regular;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.accordion-body {
+  background-color: #213951 !important;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  border-left: 2px solid #fea63b;
+  padding: 30px 20px;
+  font-family: tofino-personal-regular;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+#v-pills-tabContent {
+  width: 100% !important;
+  /* margin-left: 30px; */
+}
+
+/* CONFURANCE SCHEDULE TABLE */
+
+.cm_darkgray {
+  /* background-color: #4d6073 !important; */
+  background-color: #feedd8 !important;
+}
+
+.cm_lightgray {
+  background-color: #a6b0ba !important;
+}
+
+.cm_mediumgray {
+  background-color: #798896 !important;
+}
+
+.cm_darkyellow {
+  background-color: #feb761 !important;
+}
+
+.cm_lightyellow {
+  background-color: #fedbb1 !important;
+}
+
+/* .cm_yellow {
+    background-color: #feedd8 !important;
+} */
+
+.cm_bg_yellow {
+  background-color: #fea63c;
+}
+
+.cm_white {
+  background-color: white;
+}
+
+.cm_darknewgray {
+  /* background-color: #4c4c4c !important; */
+  color: #213951;
+}
+
+.cm_blue {
+  background-color: #213951 !important;
+}
+
+/* .cm_darkgray {
+    background-color: #d3d8dc !important;
+} */
+
+/* .cm_newgray {
+    background-color: #d3d3d3 !important;
+} */
+.cm_newgray {
+  background-color: #a0abb6 !important;
+}
+
+.cm_orange {
+  background-color: #fdc989 !important;
+}
+
+/* border */
+
+.cm_table_border_radius {
+  border-radius: 5px;
+}
+
+/* table margin-padding */
+
+/* .table {
+    border-collapse: separate;
+    border-spacing: 2px;
+} */
+.table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  background-color: #e5e6e68c !important;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fea63b'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* FREQUENTLY ASKED QUESTIONS */
+
+/* oval  */
+
+.oval {
+  padding: 20px 23px;
+  border-radius: 50%;
+  background-color: #213951;
+  font-size: 30px;
+}
+
+/* form */
+
+::placeholder {
+  font-size: 16px;
+  font-family: tofino-personal-regular;
+  color: #202020;
+}
+
+.cm_border_bottom_gray {
+  border-bottom: 1px solid #d3d8dc;
+}
+
+.cm_border_bottom_gray:hover {
+  border-bottom: 1px solid #fea63b;
+}
+
+.cm_font_white:hover {
+  /* color: #213951; */
+}
+
+.form-group:hover {
+  color: #fea63b;
+}
+
+.radio-item {
+  display: inline-block;
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
+}
+
+.radio-item input[type="radio"] {
+  display: none;
+}
+
+.radio-item label {
+  color: #666;
+  font-weight: normal;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #686868;
+}
+
+.radio-item input[type="radio"]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  content: " ";
+  display: block;
+  background: #fea63b;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+/* flip box */
+
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  /* height: 300px; */
+  height: 340px;
+  perspective: 1000px;
+  padding: 25px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.all1 {
+  background-image: url(../images/David\ Doong.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* width: 328px;
+    height: 328px; */
+}
+
+.all2 {
+  background-image: url(../images/Mc-Neal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.all3 {
+  background-image: url(../images/D-Platt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.flip-box-back {
+  background-color: #fdc989;
+  transform: rotateX(180deg);
+}
+
+.flip-box-back h2 {
+  color: #213951;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.panel-dis {
+  margin-top: 20px;
+}
+
+.panel-dis p {
+  padding: 4px 5px;
+}
+
+.panel-dis1 {
+  padding: 4px 6px;
+  margin-bottom: -4px !important;
+}
+
+/* table */
+
+td {
+  vertical-align: middle;
+}
+
+/* flip countdown */
+
+.tick {
+  padding-bottom: 5px;
+  font-size: 39px;
+  line-height: 43px;
+  color: #213a53;
+  font-family: tofino-personal-regular;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tick-label {
+  font-size: 0.375em;
+  text-align: center;
+}
+
+.tick-group {
+  margin: 0 0.25em;
+  text-align: center;
+}
+
+.tick-flip-panel {
+  color: #fea63b !important;
+  background-color: #213951 !important;
+}
+
+.myicon {
+  float: left;
+  border: 1px solid white;
+  color: white;
+  background-color: #fea63b;
+  margin-top: -24px;
+  border-radius: 50%;
+  padding: 2px 13px 6px 10px;
+  margin-left: -13px;
+}
+
+.myicon:hover {
+  border: 3px solid white;
+}
+.SPEAKERS_272 .speakersNav .nav-item {
+  padding: 0px 33px;
+}
+
+.SPEAKERS_272 h1 {
+  margin-bottom: 35px;
+}
+.SPEAKERS_272 {
+  padding: 70px 0 40px;
+}
+.SPEAKERS_272 .row.second {
+  justify-content: center;
+  padding: 40px 0 45px;
+}
+.SPEAKERS_272 .cm_font_16 {
+  font-size: 16px;
+  letter-spacing: -0.02px;
+  font-family: "Tofino Book Personal";
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+.benefitSection h1 {
+  font-size: 36px !important;
+  width: 98%;
+  font-family: "Tofino Medium Personal";
+}
+.benefitSection p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.benefitSection h5 {
+  font-weight: bold;
+  color: #202020;
+  font-size: 18px !important;
+  font-family: "Tofino Medium Personal";
+}
+.benefit2 p {
+  font-size: 14px;
+  width: 167px;
+  height: 80px;
+  line-height: 1.5;
+}
+.scheduleSection h1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.tue_67 {
+  padding: 25px !important;
+}
+th.text-center.cm_font_14.cm_font_500.cm_font_black.border-bottom-0 {
+  padding-left: 0px;
+  width: 51px;
+}
+.faqSection h1 {
+  font-size: 30px;
+  padding-top: 100px !important;
+  padding-top: 50px;
+}
+.faqSection .justify-content-center {
+  justify-content: start !important;
+  width: 69%;
+  margin: 0 auto;
+}
+.col-sm-2.tab1 {
+  display: flex;
+  width: 25%;
+}
+.col-sm-8.tab2 {
+  display: flex;
+  width: 50%;
+}
+.faqSection {
+  padding-bottom: 100px;
+}
+.glimpsesSection .cm_font_blue {
+  margin-left: 30px;
+}
+.col-md-8.benefit2 .card-body {
+  padding: 15px 0px;
+}
+.faqSection .accordion-body {
+  position: relative;
+  border-left: none;
+}
+.faqSection .accordion-body:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 2px;
+  height: 63%;
+  background: #fea63b;
+}
+.tab2 {
+  margin: 0 auto;
+  width: 70%;
+}
+.scheduleSection .panel-dis1 .cm_blue {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.table_row_changed {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.scheduleSection .panel-dis {
+  width: 100%;
+  display: flex !important;
+}
+.scheduleSection .panel-dis p {
+  flex: 0 0 50%;
+  max-width: 50%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  font-family: "Tofino Personal";
+}
+.menuHeader button#registerBtn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* ======= */
+
+/* new css */
+section.registar_main {
+  min-height: 100vh;
+  padding-top: 40px;
+  background-image: url("../images/registar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.registar_main .row.head > div:nth-child(1) .logo {
+  width: 270px;
+}
+.registar_main .row.head > div:nth-child(2) h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Tofino Personal";
+  letter-spacing: -1px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.registar_main .row.head > div:nth-child(3) > div {
+  display: flex;
+  justify-content: flex-end;
+}
+.registar_main .row.head > div:nth-child(3) h4 {
+  color: #fff;
+  font-size: 24px;
+  font-family: tofino-personal;
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+.registar_main .form_wrapper {
+  max-width: 700px;
+  margin: 100px auto;
+  display: block;
+  padding: 49px 88px 49px 94px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  background-color: #fff;
+}
+section.registar_main .row.form_body > h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+  font-family: tofino-personal;
+}
+.registar_main .form_wrapper .form_heading {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Avenir LT Std";
+  font-weight: 600;
+}
+.registar_main .form_wrapper .form_sub_heading {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Avenir LT Std";
+  margin-bottom: 45px;
+}
+.registar_main .form_wrapper .input_group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.registar_main .form_wrapper .input_group > div {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 48%;
+  max-width: 48%;
+}
+.registar_main .form_wrapper .input_group > div input,
+.registar_main .form_wrapper select {
+  border: none;
+  border-bottom: 1px solid #bfbfbf;
+}
+.registar_main .form_wrapper select {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-bottom: 7px;
+  color: #bfbfbf;
+  font-size: 16px;
+}
+.registar_main .form_wrapper input:focus,
+.registar_main .form_wrapper input:focus-visible,
+.registar_main .form_wrapper select:focus,
+.registar_main .form_wrapper select:focus-visible {
+  box-shadow: none !important;
+  outline: none;
+}
+.registar_main .form_wrapper .input_group > div.active input {
+  border-bottom: 2px solid #fea63b;
+}
+.registar_main .form_wrapper .input_group > div label {
+  color: #202020;
+  font-size: 12px;
+}
+.registar_main .form_wrapper .input_group > div.active label {
+  color: #fea63b;
+}
+.registar_main
+  .form_wrapper
+  .input_group
+  > div
+  input::-webkit-input-placeholder {
+  color: #202020 !important;
+  font-size: 16px !important;
+  font-family: "Avenir LT Std" !important;
+}
+.registar_main .form_wrapper .input_group > div input::-moz-placeholder {
+  color: #202020 !important;
+  font-size: 16px !important;
+  font-family: "Avenir LT Std" !important;
+}
+.registar_main .form_wrapper .input_group > div input:-ms-input-placeholder {
+  color: #202020 !important;
+  font-size: 16px !important;
+  font-family: "Avenir LT Std" !important;
+}
+.registar_main .form_wrapper .input_group > div input::placeholder {
+  color: #202020 !important;
+  font-size: 16px !important;
+  font-family: "Avenir LT Std" !important;
+}
+
+.registar_main .form_wrapper .btn {
+  padding: 15px 30px 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Tofino Medium Personal";
+  max-width: 200px;
+  line-height: 24px;
+  letter-spacing: 1.4px;
+  color: #fff;
+  border-radius: 0 !important;
+  /* box-shadow: inset 0 1px 3px 0 rgb(255 255 255 / 50%); */
+  background-image: linear-gradient(to bottom, #fea63b, #f08708 100%);
+  margin: 0 auto;
+  display: block;
+}
+footer.registar_footer {
+  background: #213951 !important;
+  padding: 30px 0;
+  color: #fff;
+}
+footer.registar_footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer.registar_footer .row > div {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+footer.registar_footer .row > div:nth-child(2) {
+  text-align: center;
+}
+footer.registar_footer .row > div:nth-child(3) {
+  text-align: right;
+}
+footer.registar_footer address,
+footer.registar_footer .row > div:nth-child(3) p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #dadada;
+  font-weight: 300;
+}
+footer.registar_footer .row > div:nth-child(2) p {
+  font-size: 18px;
+  font-family: tofino-personal;
+  margin-bottom: 0;
+
+}
+
+.registar_main.form_submit .form_wrapper {
+  opacity: 0.7;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  background-color: #fff;
+  max-width: 760px;
+}
+.registar_main.form_submit .form_wrapper .form_heading {
+  color: #213951;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.registar_main.form_submit .form_wrapper .form_sub_heading {
+  color: #213951;
+  font-size: 21px;
+  margin-bottom: 0;
+}
+.registar_main.form_submit .icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* section.registar_main.form_submit {
+    min-height: 80vh;
+  } */
+.registrationSection .cm_font_20 {
+  margin-top: 25px !important;
+}
+#cm_about_section .english {
+  font-size: 18px;
+  margin-left: 0;
+  color: #202020;
+  padding-left: 70px;
+}
+#cm_about_section .cm_pastorName {
+  padding-left: 70px;
+  position: relative;
+  margin-left: 0;
+  margin-top: 30px;
+  font-size: 18px;
+}
+#cm_about_section .cm_pastorName:before {
+  content: "";
+  position: absolute;
+  left: 33px;
+  top: 12px;
+  width: 21px;
+  height: 1px;
+  background: #213951;
+}
+.sponsersSection_wrapper {
+  background-image: linear-gradient(to bottom, #e1dddd, #a7a7a7);
+}
+
+.SPEAKERS_272 .row .speaker1 {
+  background-image: url("../images/english1.png");
+}
+.SPEAKERS_272 .row .speaker2 {
+  background-image: url("../images/english2.png");
+}
+.SPEAKERS_272 .row .speaker3 {
+  background-image: url("../images/english3.png");
+}
+
+.SPEAKERS_272 .row.second .speaker4 {
+  background-image: url("../images/english4.png");
+}
+.SPEAKERS_272 .row.second .speaker5 {
+  background-image: url("../images/english5.png");
+}
+
+.chinese_second_row {
+  justify-content: center;
+  padding: 40px 0 45px;
+}
+.SPEAKERS_272 .chinese_speaker1 {
+  background-image: url("../images/chinese_speaker1.png");
+}
+.SPEAKERS_272 .chinese_speaker2 {
+  background-image: url("../images/chinese_speaker2.png");
+}
+.SPEAKERS_272 .chinese_speaker3 {
+  background-image: url("../images/chinese_speaker3.png");
+}
+.SPEAKERS_272 .chinese_speaker4 {
+  background-image: url("../images/chinese_speaker4.png");
+}
+.SPEAKERS_272 .chinese_speaker5 {
+  background-image: url("../images/chinese_speaker5.png");
+}
+.SPEAKERS_272 .chinese_speaker6 {
+  background-image: url("../images/chinese_speaker6.png");
+}
+.SPEAKERS_272 .chinese_speaker7 {
+  background-image: url("../images/chinese_speaker7.png");
+}
+div#countdown ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+div#countdown ul li {
+  padding: 0 10px;
+}
+div#countdown {
+  margin-bottom: 50px;
+}
+div#countdown ul li > span {
+  font-family: Tofino-Personal;
+  font-size: 39px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.63px;
+  text-align: center;
+  color: #fea63b;
+  padding: 12.8px 14.2px 17.8px 14.4px;
+  background-image: linear-gradient(to bottom, #274e6e, #213951);
+  margin-bottom: 20px;
+  display: block;
+  width: 81.6px;
+  height: 81.6px;
+  position: relative;
+}
+div#countdown ul li > span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  background: #fedbb1;
+}
+div#countdown ul li p {
+  font-family: Tofino-Personal;
+  font-size: 12.8px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #213a53;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.registrationSection h2.cm_font_tofino_personal {
+  letter-spacing: 2.5px;
+}
+
+.SPEAKERS_272 .speaker_name {
+  text-transform: uppercase;
+}
+.box_without_flip .inner {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+  padding: 25px;
+}
+.box_without_flip .inner > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button#registerBtn {
+  line-height: 50px;
+  padding: 0 9px 0 9px;
+}
+.faq_link {
+  color: #f7951f;
+  text-decoration: none;
+}
+.faq_link:hover {
+  color: #f7951f;
+  /* text-decoration: none; */
+}
+
+.faqSection button.accordion-button.collapsed {
+  font-weight: 500;
+}
+.faqSection button.accordion-button {
+  font-weight: 800;
+}
+.faqSection button.accordion-button.collapsed {
+  font-weight: 500;
+}
+.faqSection .accordion-button.collapsed::after {
+  background-image: url("../images/down_arrow.png");
+}
+.faqSection .accordion-button:not(.collapsed)::after {
+  background-image: url("../images/down_arrow_orange.png");
+}
+.scheduleSection
+  th.text-center.cm_font_14.cm_font_500.cm_font_black.border-bottom-0 {
+  position: relative;
+  top: -13px;
+  color: #202020;
+  opacity: 0.4;
+}
+.SPEAKERS_272 a.cm_preRegister {
+  margin: 0 auto;
+}
+.registrationSection a.cm_preRegister {
+  margin: 0 auto;
+}
+section.registar_main a.cm_preRegister {
+  margin: 0 auto;
+}
+.scheduleSection .cm_lightgray {
+  background-color: #a9bccf !important;
+  color: #223a52;
+}
+th.cm_darknewgray.text-center.cm_font_white.cm_font_18.cm_font_tofino.tue_67 {
+  border: none;
+  font-size: 21px;
+  font-family: "Tofino Narrow Book Personal";
+  letter-spacing: 1px;
+}
+.scheduleSection span.cm_font_formula.cm_font_22.letter-spacing {
+  font-family: "Formula Condensed";
+  font-size: 24px;
+  margin-top: 9px;
+  display: inline-block;
+}
+.scheduleSection
+  th.text-center.cm_font_14.cm_font_500.cm_font_black.border-bottom-0.last-td {
+  top: -23px;
+}
+.menuHeader[style*="fixed"] {
+  padding-top: 25px; 
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.scheduleSection .panel_discussion {
+  padding: 5px 0 5px;
+  position: relative;
+  top: 2px;
+  border: none !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  font-family: "Tofino Personal";
+}
+.container-fuild.cm_yellow.scheduleSection td {
+  /* font-weight: 500; */
+  font-family: "Tofino Medium Personal";
+}
+@media screen and (max-width: 767px) {
+  .menuHeader form {
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .mainBanner h2 {
+    font-size: 48px;
+    margin-bottom: -6px;
+  }
+  .cm_main_heading {
+    font-size: 27px !important;
+    line-height: 49px;
+  }
+  .cm_font_30 {
+    font-size: 27px;
+  }
+  .labelDate {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  h1.cm_font_tofino_personal.cm_font_bold.cm_font_black.cm_font_36.cm_font_800.letter-spacing {
+    margin: 0px;
+    font-family: Tofino-Personal;
+    font-size: 24px;
+  }
+  .cm_font_24 {
+    font-size: 19px;
+  }
+  .cm_font_blue {
+    margin-left: 30px;
+  }
+  .sponsersSection {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  .SPEAKERS_272 {
+    padding: 50px 0 50px;
+  }
+  .benefitSection h1 {
+    font-size: 30px !important;
+  }
+  .benefit2 p {
+    font-size: 14px;
+    width: 100%;
+  }
+  img.card-img-top {
+    /*max-height: 450px;*/
+    object-fit: cover;
+  }
+  .benefitSection,
+  .inPersonSection,
+  .registrationSection,
+  .scheduleSection {
+   /* padding: 50px 0;*/
+    /* border-radius: 0 !important; */
+  }
+  #v-pills-tab-faq .nav-link {
+    padding: 10px 20px 12px 20px;
+    width: 100%;
+    text-align: center !important;
+  }
+  .faqSection .justify-content-center {
+    justify-content: center !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  .mainBanner {
+    position: relative;
+    top: -8px;
+  }
+}
+/*--------mobile-query----------*/
+
+@media only screen and (max-width: 768px) {
+  .logo-btm{ padding-bottom: 1rem!important; }
+   .sh-img {
+    display: none;
+  }
+  .tp-menu-show {
+    display: block;
+  }
+  .but-cen-mob{ margin-right: auto!important; margin-left: auto!important; }
+  .lt-txt{ text-align: center !important; }
+}
+
+/*--------mobile-query-end---------*/
+.logo-btm{ padding-bottom: 3rem; }
+
+@media only screen and (min-width: 769px) {
+ .sh-img {
+    display: block;
+  }
+  .tp-menu-show {
+    display: none;
+  }
+  .mmmleft{margin-left: 0px;}
+}
+
+@media only screen and (max-width: 750px) {
+ .check-wid{ width: 5%; }
+ .check-wid-rt{ width: 93%; }
+ .wid-100{ width: 100% !important }
+}
+
+@media only screen and (max-width: 991px) {
+ .top-nav-white{ padding: 0px 15px; color: #FFF; text-align: right; padding-right: 0px !important;}
+}
+
+.py-top-btm {
+    padding-top: 6rem!important;
+    padding-bottom: 6rem!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(163 209 255);
+    border-color: #7aa2b1;
+}
+.top-nav-white{ padding: 0px 15px; color: #FFF;}
+.top-nav-white a{ color: #FFF; text-decoration: none;}
+.top-nav-white a:hover{ color: #fea63b !important; text-decoration: none;}
+.ml-rigt-nav{ margin-left: 30%; }
+.colo-whi{ color: #FFF !important; font-weight: 500;}
+.orange-col{ color: #fa9d2c; }
+.list-pad{ padding: .2rem 1rem !important; }
+.orange-col a{ color: #fa9d2c; text-decoration: none;}
+.orange-col a:hover{ color: #feb761; text-decoration: none; }
+.lt-txt{ text-align: left; }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../ic-icon.png)
+}
+ .mmmleft{margin-left: 5px;}
+ .one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}

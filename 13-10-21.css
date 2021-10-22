@@ -1,0 +1,156 @@
+.sponsersSection_wrapper .head {
+  text-align: center;
+}
+
+.sponsersSection_wrapper .head .sponsors {
+  margin-bottom: 79px;
+  font-family: Tofino-Personal;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202020;
+}
+
+.sponsersSection_wrapper .head .gold_sponsor {
+  margin-bottom: 45px;
+  font-family: Tofino-Personal;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.86px;
+  color: #202020;
+}
+
+.sponsersSection_wrapper .head .public img {
+  display: block;
+  margin: 45px auto 205px;
+  object-fit: contain;
+}
+
+.sponsersSection_wrapper .sponsor_church {
+  font-family: Tofino-Personal !important;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+.sponsersSection_wrapper .logo_bottom {
+  padding-top: 85px;
+}
+
+/* scheduleSection */
+.Joint_Opening_Session {
+  width: 49%;
+}
+.scheduleSection tbody {
+  position: relative;
+}
+.scheduleSection tbody:before {
+  content: "";
+  position: absolute;
+  width: 96%;
+  height: 111%;
+  right: -1px;
+  top: -18%;
+  border: 1px solid #ffff;
+  z-index: 0;
+  /* border-bottom: none; */
+}
+
+.scheduleSection tbody tr,
+.scheduleSection tbody td {
+  position: relative;
+  z-index: 2;
+}
+.scheduleSection tbody:after {
+  content: "";
+  position: absolute;
+  left: 53%;
+  top: -18%;
+  height: calc(112% + -3px);
+  width: 1px;
+  background: #fff;
+  opacity: 1;
+}
+
+.scheduleSection .table_heading td {
+  text-align: center;
+  border: none;
+  font-family: Tofino-Personal !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding: 18px 0 0px;
+}
+.scheduleSection .head_tr th span {
+  font-family: Tofino-Personal !important;
+}
+.scheduleSection .head_tr th:nth-child(2) {
+  padding-top: 40px !important;
+}
+.scheduleSection .table_heading.tfoot td {
+  position: relative;
+  top: -17px;
+  padding: 0;
+}
+.scheduleSection .center_td {
+  font-family: Tofino-Personal !important;
+  font-size: 16px !important;
+  color: #213951 !important;
+}
+
+/* medai quaries */
+@media (max-width: 1440px) {
+  .scheduleSection tbody:before {
+    width: calc(96% + -7px);
+  }
+  .Joint_Opening_Session {
+    width: calc(48% + 8px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .scheduleSection tbody:before {
+    width: calc(96% + -14px);
+  }
+}
+
+@media (max-width: 768px) {
+  .scheduleSection tbody:before {
+    width: calc(96% + -22px);
+  }
+  .scheduleSection .table_heading td {
+    padding: 18px 0 10px;
+  }
+  .scheduleSection tbody:after {
+    left: 55%;
+  }
+}
+
+/* media quaries for mobile */
+@media (max-width: 767px) {
+  .sponsersSection_wrapper .head .sponsors {
+    margin-bottom: 40px;
+  }
+  .sponsersSection_wrapper .head .public img {
+    margin: 35px auto 25px;
+  }
+  .scheduleSection tbody:before {
+    width: calc(96% + -29px);
+    height: calc(112% + 4px);
+  }
+  .scheduleSection tbody:after {
+    left: calc(53% + 5px);
+  }
+}

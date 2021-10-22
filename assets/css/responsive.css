@@ -1,0 +1,412 @@
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .menuHeader {
+    padding: 10px;
+  }
+  .menuHeader .row .col-sm-3 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+  }
+  button#registerBtn {
+    width: 201px !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .languageMenu {
+    display: none;
+  }
+  .cm_main_heading {
+    font-size: 45px;
+    line-height: 49px;
+  }
+  .labelDate {
+    padding: 10px 0px;
+  }
+  .mainBannerSec3 {
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+  }
+  .mainBannerSec4 {
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+  }
+  ul#countDown {
+    display: block;
+  }
+  li#countDownDays1,
+  li#countDownHours1,
+  li#countDownMinutes1,
+  li#countDownSeconds1,
+  li#countDownDays,
+  li#countDownHours,
+  li#countDownMinutes,
+  li#countDownSeconds {
+    width: 100%;
+    margin-top: 10px;
+  }
+  iframe {
+    width: 100%;
+  }
+  #cm_about_section {
+    margin-top: 20px;
+    padding: 70px 0 0 27px;
+  }
+  .glimpsesSection .row .col-sm-6 {
+    padding: 0px;
+  }
+  .sponsersSection img {
+    padding: 10px 0px;
+  }
+  .speakersNav .nav-item {
+    padding: 0px 2px;
+  }
+  .benefitSection .row {
+    padding: 10px !important;
+  }
+  #v-pills-tabContent {
+    width: 100% !important;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .faqSection .d-flex {
+    display: block !important;
+  }
+  .headingfont {
+    font-size: 30px !important;
+    line-height: 34px !important;
+  }
+  .subHeadingfont {
+    font-size: 22px !important;
+    line-height: 26px !important;
+  }
+  div#grad1 {
+    padding: 10px !important;
+  }
+  ul#progressbar {
+    padding-left: 0px !important;
+  }
+  .discount-container,
+  .orig-price-container {
+    padding-left: 10px;
+    margin-top: 7px !important;
+  }
+  .quantity {
+    padding-left: 10px;
+    margin-top: 10px !important;
+  }
+  .card-footer .row .summary-item-value {
+    padding-left: 0px !important;
+  }
+  .flip-box-back h2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  button#registerBtn {
+    width: 222px;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .paddedClass {
+    padding: 5px !important;
+  }
+  .labelDate {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  li#countDownDays1,
+  li#countDownHours1,
+  li#countDownMinutes1,
+  li#countDownSeconds1,
+  li#countDownDays,
+  li#countDownHours,
+  li#countDownMinutes,
+  li#countDownSeconds {
+    width: 98px;
+    margin-top: 10px;
+  }
+  .speakersNav .nav-item {
+    padding: 0px 2px;
+  }
+  #myTab .nav-tabs .nav-link {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1072px) {
+  button#registerBtn {
+    width: 240px;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .paddedClass {
+    padding: 5px !important;
+  }
+  li#countDownDays1,
+  li#countDownHours1,
+  li#countDownMinutes1,
+  li#countDownSeconds1,
+  li#countDownDays,
+  li#countDownHours,
+  li#countDownMinutes,
+  li#countDownSeconds {
+    width: 98px;
+    margin-top: 10px;
+  }
+  .speakersNav .nav-item {
+    padding: 0px 2px;
+  }
+  #myTab .nav-tabs .nav-link {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  button#registerBtn {
+    width: 240px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .paddedClass {
+    padding: 5px !important;
+  }
+  .nav-tabs .nav-link {
+    font-size: 15px !important;
+  }
+  li#countDownDays1,
+  li#countDownHours1,
+  li#countDownMinutes1,
+  li#countDownSeconds1,
+  li#countDownDays,
+  li#countDownHours,
+  li#countDownMinutes,
+  li#countDownSeconds {
+    width: 98px !important;
+    margin-top: 10px;
+  }
+  #cm_about_section {
+    padding: 70px 0 0 50px;
+  }
+  .sponsersSection img {
+    width: 150px;
+  }
+  #myTab .nav-tabs .nav-link {
+    font-size: 15px !important;
+  }
+  .speakersNav .nav-item {
+    padding: 0px 2px;
+  }
+}
+
+/* ============= */
+/* new css */
+@media (max-width: 1440px) {
+  .registar_main .row.head > div:nth-child(1) .logo {
+    width: 220px;
+  }
+  section.registar_main .row.head > div:nth-child(2) {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  section.registar_main .row.head > div:nth-child(3) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .registar_main .row.head > div:nth-child(3) h4 {
+    color: #fff;
+    font-size: 20px;
+    font-family: tofino-personal;
+    text-transform: uppercase;
+    margin-left: 4px;
+  }
+  .SPEAKERS_272 .cm_font_16 {
+    font-size: 15px;
+  }
+  .mainBanner {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .mainBanner {
+    margin-top: -11px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registar_main .row.head > div:nth-child(3) h4 {
+    font-size: 20px;
+  }
+  .registar_main .row.head > div:nth-child(1) .logo {
+    width: 216px;
+  }
+  .registar_main .row.head > div:nth-child(2) h3 {
+    font-size: 20px;
+  }
+  section.registar_main .row.head > div:nth-child(1) {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .faqSection .justify-content-center {
+    width: 85%;
+  }
+  div#chinese .row .col-sm-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  section.registar_main .row.head > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .registar_main .row.head > div:nth-child(3) > div {
+    justify-content: center;
+  }
+  section.registar_main .row.head > div {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  section.registar_main .row.head > div:nth-child(2) {
+    margin: 20px 0 9px;
+  }
+  .mainBanner .button_99 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mainBanner .button_99 > div,
+  .mainBannerSec3 > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .faqSection .tab2 {
+    width: 100%;
+  }
+  .faqSection .justify-content-center {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .registar_main .row.head > div:nth-child(3) h4,
+  .registar_main .row.head > div:nth-child(2) h3 {
+    font-size: 18px;
+  }
+  section.registar_main .row.form_body > h3 {
+    font-size: 20px;
+    margin-top: 34px;
+  }
+  .registar_main .form_wrapper {
+    margin: 50px auto;
+    padding: 40px 20px;
+  }
+  .registar_main .form_wrapper .input_group {
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+  }
+  .registar_main .form_wrapper .input_group > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  footer.registar_footer .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center !important;
+  }
+  footer.registar_footer .row > div:nth-child(2) {
+    margin: 20px 0;
+  }
+  footer.registar_footer {
+    padding: 50px 0;
+  }
+  .registar_main.form_submit .form_wrapper {
+    width: 95%;
+  }
+  .registar_main.form_submit .form_wrapper .form_sub_heading {
+    font-size: 17px;
+  }
+  .registar_main.form_submit .form_wrapper .form_heading {
+    font-size: 20px;
+  }
+  .menuHeader button#registerBtn {
+    margin-bottom: 20px;
+  }
+  .sponsersSection {
+    padding-top: 20px;
+  }
+  .flip-box {
+    padding: 25px 0;
+  }
+  .benefitSection .row > div:first-child {
+    margin-bottom: 20px !important;
+  }
+  div#countdown ul li > span {
+    font-size: 30px;
+    width: 65.6px;
+    height: 65.6px;
+  }
+  .registrationSection .cm_font_20 {
+    font-size: 17px;
+  }
+  #v-pills-tab-faq .nav-link {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .faqSection .tab2 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .faqSection .justify-content-center {
+    width: 70% !important;
+  }
+  .scheduleSection td {
+    min-width: 100px;
+  }
+  .scheduleSection .panel-dis p {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .scheduleSection .panel-dis {
+    flex-direction: column;
+  }
+  th.text-center.cm_font_14.cm_font_500.cm_font_black.border-bottom-0 {
+    min-width: 65px !important;
+  }
+  div#chinese .row .col-sm-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mainBanner a.cm_preRegister {
+    margin: 0 auto;
+  }
+  .benefitSection .text-left.mt-5 {
+    margin-top: 0 !important;
+  }
+  img.card-img-top {
+    margin-top: 10px !important;
+  }
+  .menuHeader {
+    padding: 10px 10px 20px;
+  }
+  .mainBanner {
+    margin-top: 0;
+  }
+  .menuHeader[style*="fixed"] {
+    padding-top: 10px;
+  }
+}

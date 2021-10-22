@@ -1,0 +1,412 @@
+/* church Css Start */
+
+.input-church {
+    padding: 10px 0 0 0 !important;
+    font-size: 16px;
+    font-family: tofino-book-personal;
+    color: #202020;
+}
+
+.input-church::placeholder {
+    font-size: 16px;
+    color: #202020;
+    font-family: tofino-book-personal;
+}
+
+.cm_text_decoration {
+    text-decoration: none;
+}
+
+#msform {
+    /* text-align: center; */
+    position: relative;
+    margin-top: 20px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#msform fieldset .form-card {
+    text-align: left;
+    color: #202020;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+#msform .action-button {
+    background: #fea63c;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    font-family: "tofino-personal-semi-bold";
+    font-size: 18px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue;
+}
+
+#msform .action-button-previous {
+    background: #616161;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    font-family: "tofino-personal-semi-bold";
+    font-size: 18px;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161;
+}
+
+select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px;
+}
+
+select.list-dt:focus {
+    border-bottom: 2px solid skyblue;
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+#progressbar {
+    overflow: hidden;
+    color: #202020;
+    font-family: tofino-personal-regular;
+    text-align: center;
+    font-size: 12px;
+}
+
+#progressbar .active {
+    font-family: tofino-personal-semi-bold;
+    color: #000000;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 14px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+#progressbar .stepHead:before {
+    background-color: #d8d8d8;
+    color: #213951;
+    font-weight: bold;
+    font-family: tofino-personal-semi-bold;
+    font-size: 25px;
+}
+
+#progressbar #profile:before {
+    content: '1';
+}
+
+#progressbar #ticket:before {
+    content: '2';
+}
+
+#progressbar #payment:before {
+    content: '3';
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #979797;
+    position: absolute;
+    top: 25px;
+    z-index: -1;
+}
+
+#progressbar li:last-child::after {
+    display: none;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #feb65f;
+}
+
+#progressbar li.active.complete:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    background: #7ed321;
+    color: #fff;
+    content: "\f00c" !important;
+}
+
+.radio-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px;
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+form {
+    text-align: center;
+    /* margin: 10%; */
+}
+
+input[type='button'] {
+    cursor: pointer;
+}
+
+
+
+.tickets-items-container {
+    font-family: "tofino-book-personal";
+    font-size: 16px;
+    margin: 0 auto;
+}
+.tickets-header-row {
+    font-family: "tofino-personal-semi-bold";
+    font-size: 13px;
+}
+.tickets-item-row {
+    padding: 12px 8px 12px 8px;
+}
+
+.ticket-table {
+    width: 100%;
+    font-family: "tofino-book-personal";
+    font-size: 16px;
+    max-width: 840px;
+    margin: 0 auto;
+}
+.ticket-table th {
+    font-family: "tofino-personal-semi-bold";
+    font-size: 13px;
+    padding: 12px 8px 12px 8px;
+    vertical-align: top;
+}
+.ticket-table td {
+    padding: 12px 8px 12px 8px;
+    border-top: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+.ticket-table tbody tr:first-child td,
+.ticket-table tbody tr:last-child td {
+    border-top: none;
+}
+.tt-cell {
+    text-align: left;
+}
+/* .tt-cell > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+} */
+.unit-cell {
+    width: 15%;
+    text-align: right;
+}
+.price-cell {
+    width: 20%;
+    text-align: right;
+}
+
+.pack-container {
+    color: #0e0e0e;
+}
+.pack-container span {
+    font-family: "tofino-personal-semi-bold";
+}
+.orig-price-container span {
+    color: #4a4a4a;
+    text-decoration: line-through;
+}
+
+.discount-container .discount {
+    font-family: "tofino-personal-semi-bold";
+    color: #417505;
+}
+.discount-container .badge {
+    display: block;
+    background-color: #c9efa0;
+    color: #859e32;
+    font-family: "tofino-personal-semi-bold";
+    font-size: 8px;
+    margin-top: 4px;
+    border-radius: 0;
+}
+
+
+/* quantity managment */
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+.quantity {
+    font-family: "tofino-personal-semi-bold";
+    color: #213951;
+}
+.quantity::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.quantity input {
+    float: left;
+}
+.quantity input[type="button"] {
+    background-color: #fea63c;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    line-height: 0;
+}
+.quantity input[type="text"] {
+    display: inline-block;
+    width: 50px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #ececec;
+}
+
+.ticket-table tbody tr td.total-qty-cell,
+.ticket-table tbody tr td.total-price-cell {
+    border-top: 1px solid #000000;
+    font-family: "tofino-personal-semi-bold";
+    color: #000000;
+    text-align: right;
+}
+
+
+.payment-cards-container {
+    height: 50px;
+}
+.payment-cards-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.summary-card {
+    background-color: #f4f4f4;
+    border-radius: 0;
+}
+.summary-card .card-title {
+    font-size: 14px;
+}
+.summary-item-label {
+    font-family: "tofino-book-personal";
+    color: #202020;
+}
+.summary-item-value {
+    text-align: right;
+    font-family: "tofino-personal-semi-bold";
+    color: #000000;
+}
+.summary-card .card-footer {
+    background-color: #4d6073;
+    border-radius: 0;
+    color: #fff;
+}
+.summary-card .card-footer .summary-item-label {
+    color: #fff;
+}
+.summary-card .card-footer .summary-item-value {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.cm_font_21 {
+    font-size: 21px;
+    line-height: 29px;
+}
+.letter-spacing-0 {
+    letter-spacing: 0.88px;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1.31px
+}
+
+.letter-spacing-13 {
+    letter-spacing: 1.13px
+}
+
+.coupon-container {
+    display: inline;
+    background-color: #fedbb1;
+    padding: 12px 40px;
+}
+.coupon-container span {
+    font-family: "tofino-personal-semi-bold";
+    font-size: 21px;
+    color: #202020;
+}
+

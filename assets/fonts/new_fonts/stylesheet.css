@@ -1,0 +1,756 @@
+@font-face {
+    font-family: 'Tofino Book Personal';
+    src: url('Tofino-BookPersonal.eot');
+    src: url('Tofino-BookPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-BookPersonal.woff2') format('woff2'),
+        url('Tofino-BookPersonal.woff') format('woff'),
+        url('Tofino-BookPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Personal';
+    src: url('Tofino-BoldItalicPersonal.eot');
+    src: url('Tofino-BoldItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-BoldItalicPersonal.woff2') format('woff2'),
+        url('Tofino-BoldItalicPersonal.woff') format('woff'),
+        url('Tofino-BoldItalicPersonal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Book Italic Personal';
+    src: url('Tofino-BookItalicPersonal.eot');
+    src: url('Tofino-BookItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-BookItalicPersonal.woff2') format('woff2'),
+        url('Tofino-BookItalicPersonal.woff') format('woff'),
+        url('Tofino-BookItalicPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Personal';
+    src: url('Tofino-BoldPersonal.eot');
+    src: url('Tofino-BoldPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-BoldPersonal.woff2') format('woff2'),
+        url('Tofino-BoldPersonal.woff') format('woff'),
+        url('Tofino-BoldPersonal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Black Italic Personal';
+    src: url('Tofino-BlackItalicPersonal.eot');
+    src: url('Tofino-BlackItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-BlackItalicPersonal.woff2') format('woff2'),
+        url('Tofino-BlackItalicPersonal.woff') format('woff'),
+        url('Tofino-BlackItalicPersonal.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Black Personal';
+    src: url('Tofino-BlackPersonal.eot');
+    src: url('Tofino-BlackPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-BlackPersonal.woff2') format('woff2'),
+        url('Tofino-BlackPersonal.woff') format('woff'),
+        url('Tofino-BlackPersonal.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Bold Personal';
+    src: url('TofinoCond-BoldPersonal.eot');
+    src: url('TofinoCond-BoldPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-BoldPersonal.woff2') format('woff2'),
+        url('TofinoCond-BoldPersonal.woff') format('woff'),
+        url('TofinoCond-BoldPersonal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Light Personal';
+    src: url('TofinoCond-LightPersonal.eot');
+    src: url('TofinoCond-LightPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-LightPersonal.woff2') format('woff2'),
+        url('TofinoCond-LightPersonal.woff') format('woff'),
+        url('TofinoCond-LightPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Book It Personal';
+    src: url('TofinoCond-BookItalicPersonal.eot');
+    src: url('TofinoCond-BookItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-BookItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-BookItalicPersonal.woff') format('woff'),
+        url('TofinoCond-BookItalicPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Bold It Personal';
+    src: url('TofinoCond-BoldItalicPersonal.eot');
+    src: url('TofinoCond-BoldItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-BoldItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-BoldItalicPersonal.woff') format('woff'),
+        url('TofinoCond-BoldItalicPersonal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Light It Personal';
+    src: url('TofinoCond-LightItalicPersonal.eot');
+    src: url('TofinoCond-LightItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-LightItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-LightItalicPersonal.woff') format('woff'),
+        url('TofinoCond-LightItalicPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Book Personal';
+    src: url('TofinoCond-BookPersonal.eot');
+    src: url('TofinoCond-BookPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-BookPersonal.woff2') format('woff2'),
+        url('TofinoCond-BookPersonal.woff') format('woff'),
+        url('TofinoCond-BookPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Light Italic Personal';
+    src: url('Tofino-LightItalicPersonal.eot');
+    src: url('Tofino-LightItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-LightItalicPersonal.woff2') format('woff2'),
+        url('Tofino-LightItalicPersonal.woff') format('woff'),
+        url('Tofino-LightItalicPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Italic Personal';
+    src: url('TofinoCond-RegularItalicPersonal.eot');
+    src: url('TofinoCond-RegularItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-RegularItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-RegularItalicPersonal.woff') format('woff'),
+        url('TofinoCond-RegularItalicPersonal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Thin It Personal';
+    src: url('TofinoCond-ThinItalicPersonal.eot');
+    src: url('TofinoCond-ThinItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-ThinItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-ThinItalicPersonal.woff') format('woff'),
+        url('TofinoCond-ThinItalicPersonal.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Medium Personal';
+    src: url('TofinoCond-MediumPersonal.eot');
+    src: url('TofinoCond-MediumPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-MediumPersonal.woff2') format('woff2'),
+        url('TofinoCond-MediumPersonal.woff') format('woff'),
+        url('TofinoCond-MediumPersonal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Smbold It Personal';
+    src: url('TofinoCond-SemiboldItalicPersonal.eot');
+    src: url('TofinoCond-SemiboldItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-SemiboldItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-SemiboldItalicPersonal.woff') format('woff'),
+        url('TofinoCond-SemiboldItalicPersonal.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Medium It Personal';
+    src: url('TofinoCond-MediumItalicPersonal.eot');
+    src: url('TofinoCond-MediumItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-MediumItalicPersonal.woff2') format('woff2'),
+        url('TofinoCond-MediumItalicPersonal.woff') format('woff'),
+        url('TofinoCond-MediumItalicPersonal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Personal';
+    src: url('TofinoCond-RegularPersonal.eot');
+    src: url('TofinoCond-RegularPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-RegularPersonal.woff2') format('woff2'),
+        url('TofinoCond-RegularPersonal.woff') format('woff'),
+        url('TofinoCond-RegularPersonal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Semibold Personal';
+    src: url('TofinoCond-SemiboldPersonal.eot');
+    src: url('TofinoCond-SemiboldPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-SemiboldPersonal.woff2') format('woff2'),
+        url('TofinoCond-SemiboldPersonal.woff') format('woff'),
+        url('TofinoCond-SemiboldPersonal.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Cond Thin Personal';
+    src: url('TofinoCond-ThinPersonal.eot');
+    src: url('TofinoCond-ThinPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoCond-ThinPersonal.woff2') format('woff2'),
+        url('TofinoCond-ThinPersonal.woff') format('woff'),
+        url('TofinoCond-ThinPersonal.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Book It Personal';
+    src: url('TofinoNarrow-BookItalicPersonal.eot');
+    src: url('TofinoNarrow-BookItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoNarrow-BookItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-BookItalicPersonal.woff') format('woff'),
+        url('TofinoNarrow-BookItalicPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Black Personal';
+    src: url('TofinoNarrow-BlackPersonal.eot');
+    src: url('TofinoNarrow-BlackPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoNarrow-BlackPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-BlackPersonal.woff') format('woff'),
+        url('TofinoNarrow-BlackPersonal.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Bold It Personal';
+    src: url('TofinoNarrow-BoldItalicPersonal.eot');
+    src: url('TofinoNarrow-BoldItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoNarrow-BoldItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-BoldItalicPersonal.woff') format('woff'),
+        url('TofinoNarrow-BoldItalicPersonal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Light Personal';
+    src: url('Tofino-LightPersonal.eot');
+    src: url('Tofino-LightPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-LightPersonal.woff2') format('woff2'),
+        url('Tofino-LightPersonal.woff') format('woff'),
+        url('Tofino-LightPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Bold Personal';
+    src: url('TofinoNarrow-BoldPersonal.eot');
+    src: url('TofinoNarrow-BoldPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoNarrow-BoldPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-BoldPersonal.woff') format('woff'),
+        url('TofinoNarrow-BoldPersonal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Book Personal';
+    src: url('TofinoNarrow-BookPersonal.eot');
+    src: url('TofinoNarrow-BookPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoNarrow-BookPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-BookPersonal.woff') format('woff'),
+        url('TofinoNarrow-BookPersonal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Medium Italic Personal';
+    src: url('Tofino-MediumItalicPersonal.eot');
+    src: url('Tofino-MediumItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-MediumItalicPersonal.woff2') format('woff2'),
+        url('Tofino-MediumItalicPersonal.woff') format('woff'),
+        url('Tofino-MediumItalicPersonal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Black It Personal';
+    src: url('TofinoNarrow-BlackItalicPersonal.eot');
+    src: url('TofinoNarrow-BlackItalicPersonal.eot?#iefix') format('embedded-opentype'),
+        url('TofinoNarrow-BlackItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-BlackItalicPersonal.woff') format('woff'),
+        url('TofinoNarrow-BlackItalicPersonal.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Medium Personal';
+    src: url('Tofino-MediumPersonal.eot');
+    src: url('Tofino-MediumPersonal.eot?#iefix') format('embedded-opentype'),
+        url('Tofino-MediumPersonal.woff2') format('woff2'),
+        url('Tofino-MediumPersonal.woff') format('woff'),
+        url('Tofino-MediumPersonal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Italic Personal';
+    src: url('TofinoWide-RegularItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-RegularItalicPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Medium It Personal';
+    src: url('TofinoWide-MediumItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-MediumItalicPersonal.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Book Personal';
+    src: url('TofinoWide-BookPersonal.woff2') format('woff2'),
+        url('TofinoWide-BookPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Light It Personal';
+    src: url('TofinoWide-LightItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-LightItalicPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Medium Personal';
+    src: url('TofinoWide-MediumPersonal.woff2') format('woff2'),
+        url('TofinoWide-MediumPersonal.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Light Personal';
+    src: url('TofinoWide-LightPersonal.woff2') format('woff2'),
+        url('TofinoWide-LightPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Book It Personal';
+    src: url('TofinoWide-BookItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-BookItalicPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Thin It Personal';
+    src: url('TofinoWide-ThinItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-ThinItalicPersonal.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Thin Personal';
+    src: url('TofinoWide-ThinPersonal.woff2') format('woff2'),
+        url('TofinoWide-ThinPersonal.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Semibold Personal';
+    src: url('TofinoWide-SemiboldPersonal.woff2') format('woff2'),
+        url('TofinoWide-SemiboldPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Personal';
+    src: url('TofinoWide-RegularPersonal.woff2') format('woff2'),
+        url('TofinoWide-RegularPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Ultra Personal';
+    src: url('TofinoWide-UltraPersonal.woff2') format('woff2'),
+        url('TofinoWide-UltraPersonal.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Ul Italic Personal';
+    src: url('TofinoWide-UltraItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-UltraItalicPersonal.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Smbold It Personal';
+    src: url('TofinoWide-SemiboldItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-SemiboldItalicPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Medium It Personal';
+    src: url('TofinoNarrow-MediumItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-MediumItalicPersonal.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Light Personal';
+    src: url('TofinoNarrow-LightPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-LightPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Light It Personal';
+    src: url('TofinoNarrow-LightItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-LightItalicPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Medium Personal';
+    src: url('TofinoNarrow-MediumPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-MediumPersonal.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Personal';
+    src: url('Tofino-RegularItalicPersonal.woff2') format('woff2'),
+        url('Tofino-RegularItalicPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Thin It Personal';
+    src: url('TofinoNarrow-ThinItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-ThinItalicPersonal.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Personal';
+    src: url('Tofino-RegularPersonal.woff2') format('woff2'),
+        url('Tofino-RegularPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Personal';
+    src: url('TofinoNarrow-RegularPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-RegularPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Semibold Personal';
+    src: url('TofinoNarrow-SemiboldPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-SemiboldPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Italic Personal';
+    src: url('TofinoNarrow-RegularItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-RegularItalicPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow Thin Personal';
+    src: url('TofinoNarrow-ThinPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-ThinPersonal.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Narrow SmBd It Personal';
+    src: url('TofinoNarrow-SemiboldItalicPersonal.woff2') format('woff2'),
+        url('TofinoNarrow-SemiboldItalicPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text';
+    src: url('TofinoText-BoldItalicPersonal.woff2') format('woff2'),
+        url('TofinoText-BoldItalicPersonal.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Semibold Italic Personal';
+    src: url('Tofino-SemiboldItalicPersonal.woff2') format('woff2'),
+        url('Tofino-SemiboldItalicPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text';
+    src: url('TofinoText-BoldPersonal.woff2') format('woff2'),
+        url('TofinoText-BoldPersonal.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text Light Personal';
+    src: url('TofinoText-LightPersonal.woff2') format('woff2'),
+        url('TofinoText-LightPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text Personal';
+    src: url('TofinoText-RegularPersonal.woff2') format('woff2'),
+        url('TofinoText-RegularPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text Light It Personal';
+    src: url('TofinoText-LightItalicPersonal.woff2') format('woff2'),
+        url('TofinoText-LightItalicPersonal.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Semibold Personal';
+    src: url('Tofino-SemiboldPersonal.woff2') format('woff2'),
+        url('Tofino-SemiboldPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text';
+    src: url('TofinoText-RegularItalicPersonal.woff2') format('woff2'),
+        url('TofinoText-RegularItalicPersonal.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Bold It Personal';
+    src: url('TofinoWide-BoldItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-BoldItalicPersonal.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Ultra Personal';
+    src: url('Tofino-UltraPersonal.woff2') format('woff2'),
+        url('Tofino-UltraPersonal.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text Smbold It Personal';
+    src: url('TofinoText-SemiboldItalicPersonal.woff2') format('woff2'),
+        url('TofinoText-SemiboldItalicPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Bold Personal';
+    src: url('TofinoWide-BoldPersonal.woff2') format('woff2'),
+        url('TofinoWide-BoldPersonal.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Black It Personal';
+    src: url('TofinoWide-BlackItalicPersonal.woff2') format('woff2'),
+        url('TofinoWide-BlackItalicPersonal.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Text Semibold Personal';
+    src: url('TofinoText-SemiboldPersonal.woff2') format('woff2'),
+        url('TofinoText-SemiboldPersonal.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Thin Personal';
+    src: url('Tofino-ThinPersonal.woff2') format('woff2'),
+        url('Tofino-ThinPersonal.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Thin Italic Personal';
+    src: url('Tofino-ThinItalicPersonal.woff2') format('woff2'),
+        url('Tofino-ThinItalicPersonal.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Ultra Italic Personal';
+    src: url('Tofino-UltraItalicPersonal.woff2') format('woff2'),
+        url('Tofino-UltraItalicPersonal.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tofino Wide Black Personal';
+    src: url('TofinoWide-BlackPersonal.woff2') format('woff2'),
+        url('TofinoWide-BlackPersonal.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

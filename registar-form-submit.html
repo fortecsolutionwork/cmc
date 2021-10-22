@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMC Global 2021</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      href="assets/images/cmc-favicon.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="assets/fonts/new_fonts/stylesheet.css" />
+    <link rel="stylesheet" href="assets/fonts/avenirl/avenirl-font.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link href="flip/flip.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- banner start -->
+    <section class="registar_main form_submit">
+      <div class="container">
+        <div class="row head">
+          <div class="col-md-3">
+            <a href="index.html"
+              ><img
+                src="assets/images/transparent-logo.png"
+                alt=""
+                class="logo"
+            /></a>
+          </div>
+          <div class="col-md-6">
+            <h3>CMC Global 2021: Faithful & Fruitful</h3>
+          </div>
+          <div class="col-md-3">
+            <div>
+              <img src="assets/images/event.svg" alt="" />
+              <h4>Online | Dec 28-29, 2021</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row form_body">
+          <h3>Unleashed Together for God's Global Glory</h3>
+          <div class="form_wrapper">
+            <div class="icon">
+              <img src="assets/images/yellow_circle.png" alt="" />
+            </div>
+            <h4 class="form_heading">
+              You've successfully pre-registered <br />
+              for CMC Global 2021!
+            </h4>
+            <h5 class="form_sub_heading">
+              Please check your inbox (including spam/other folders) <br>for an
+              email notification when registrations go live.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner End -->
+
+    <!-- Footer -->
+    <footer class="registar_footer">
+      <div class="container">
+        <div class="row">
+          <div>
+            <address>
+              (717) 687-8564 <br />
+              cmc@afcinc.org
+            </address>
+          </div>
+          <div>
+            <p>© 2021 AFC Inc.</p>
+          </div>
+          <div>
+            <p>
+              21 Ambassador Dr, <br />
+              Paradise, PA 17562, USA
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="flip/flip.min.js"></script>
+
+    <!-- <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Sep 9, 2021 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Intialise in html
+            // document.getElementById("countDownDays").innerHTML = days + " <span class='cm_font_18 cm_font_white'><BR/>DAYS</span> ";
+            // document.getElementById("countDownHours").innerHTML = hours + " <span class='cm_font_18 cm_font_white'><BR/>HOURS</span> ";
+            // document.getElementById("countDownMinutes").innerHTML = minutes + " <span class='cm_font_18 cm_font_white'><BR/>MINUTES</span> ";
+            // document.getElementById("countDownSeconds").innerHTML = seconds + " <span class='cm_font_18 cm_font_white'><BR/>SECONDS</span> ";
+
+            document.getElementById("countDownDays1").innerHTML = days + " <span class='cm_font_14 cm_font_white'><BR/>DAYS</span> ";
+            document.getElementById("countDownHours1").innerHTML = hours + " <span class='cm_font_14 cm_font_white'><BR/>HOURS</span> ";
+            document.getElementById("countDownMinutes1").innerHTML = minutes + " <span class='cm_font_14 cm_font_white'><BR/>MINUTES</span> ";
+            document.getElementById("countDownSeconds1").innerHTML = seconds + " <span class='cm_font_14 cm_font_white'><BR/>SECONDS</span> ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countDown").innerHTML = "EXPIRED";
+            }
+
+        }, 1000);
+    </script> -->
+    <!-- header sticky -->
+    <script>
+      $(window).scroll(function () {
+        // this will work when your window scrolled.
+        var height = $(window).scrollTop(); //getting the scrolling height of window
+        if (height > 100) {
+          $(".menuHeader").css({
+            position: "fixed",
+          });
+        } else {
+          $(".menuHeader").css({
+            position: "relative",
+          });
+        }
+      });
+    </script>
+    <script>
+      function handleTickInit(tick) {
+        var nextYear = new Date().getFullYear();
+        Tick.count.down(nextYear + "-09-09").onupdate = function (value) {
+          tick.value = value;
+        };
+      }
+
+      jQuery(document).ready(function ($) {
+        $(".registar_main  input").focus(function () {
+          $(".registar_main  input").parent().remove("active");
+          $(this).parent().addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

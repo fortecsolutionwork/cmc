@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('FormulaCondensed-Bold.woff2') format('woff2'),
+        url('FormulaCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('FormulaCondensed-Light.woff2') format('woff2'),
+        url('FormulaCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
